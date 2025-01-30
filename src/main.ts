@@ -10,38 +10,28 @@ const timestamps = [
   },
   {
     id: 2,
-    time: 74,
+    time: 89,
     action: () => scoreGoal(1, 1, 1.0),
   },
   {
     id: 3,
-    time: 100,
+    time: 123,
     action: () => scoreGoal(1, 1, 2.0),
   },
   {
     id: 4,
-    time: 127,
+    time: 152,
     action: () => startHalfTime(1),
   },
   {
     id: 5,
-    time: 155,
+    time: 172,
     action: () => endHalfTime(1),
   },
   {
     id: 6,
-    time: 213,
+    time: 197,
     action: () => scoreGoal(1, 1, 3.0),
-  },
-  {
-    id: 7,
-    time: 232,
-    action: () => scoreGoal(1, 18, 1.0),
-  },
-  {
-    id: 8,
-    time: 274,
-    action: () => scoreGoal(1, 18, 2.0),
   },
 ];
 let lastExecutedActionID: number | null = null;
